@@ -1,0 +1,938 @@
+INFO  [SwingWorker-pool-2-thread-4] 2021-08-13 22:45:22,644 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.1141
+INFO  [AWT-EventQueue-0] 2021-08-13 22:57:55,746 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 22:57:55,867 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:58:06,662 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost7563518344381644123.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409 ...
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:58:06,718 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:58:06,719 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0551
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:58:06,719 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409\asdmin_localhost7563518344381644123.zip
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:58:07,448 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-0] 2021-08-13 22:58:32,428 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2021-08-13 22:58:32,429 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628891883409/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2021-08-13 22:58:32,429 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2021-08-13 22:58:32,429 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2021-08-13 22:58:32,429 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-0] 2021-08-13 22:58:32,459 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2021-08-13 22:58:32,459 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628891883409/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2021-08-13 22:58:32,459 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2021-08-13 22:58:32,459 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2021-08-13 22:58:32,459 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - WARN  [main] 22:58:32,603 repast.simphony.data2.engine.DataSetComponentControllerAction - Error while creating DataSets
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Class.forName0(Native Method)
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Class.forName(Class.java:398)
+INFO  [Thread-0] 2021-08-13 22:58:32,608 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.DataSetComponentControllerAction.createAggregateBuilder(DataSetComponentControllerAction.java:101)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.DataSetComponentControllerAction.batchInitialize(DataSetComponentControllerAction.java:75)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.OneRunBatchRunner.batchInit(OneRunBatchRunner.java:89)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.run(InstanceRunner.java:185)
+INFO  [Thread-0] 2021-08-13 22:58:32,610 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:217)
+INFO  [Thread-0] 2021-08-13 22:58:32,615 repast.simphony.batch.ssh.LocalSession - ERROR [main] 22:58:32,614 repast.simphony.data2.engine.FileSinkComponentControllerAction - Error while creating FileDataSink. DataSet 'A Data Set' not found
+INFO  [Thread-0] 2021-08-13 22:58:32,615 repast.simphony.batch.ssh.LocalSession - java.lang.NullPointerException
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,616 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+INFO  [Thread-0] 2021-08-13 22:58:32,618 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+INFO  [Thread-0] 2021-08-13 22:58:32,618 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+INFO  [Thread-0] 2021-08-13 22:58:32,618 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.OneRunBatchRunner.batchInit(OneRunBatchRunner.java:89)
+INFO  [Thread-0] 2021-08-13 22:58:32,618 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.run(InstanceRunner.java:185)
+INFO  [Thread-0] 2021-08-13 22:58:32,618 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:217)
+INFO  [Thread-0] 2021-08-13 22:58:32,639 repast.simphony.batch.ssh.LocalSession - WARN  [main] 22:58:32,634 repast.simphony.data2.engine.DataSetComponentControllerAction - Error while creating DataSets
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Class.forName0(Native Method)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at java.base/java.lang.Class.forName(Class.java:398)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.DataSetComponentControllerAction.createAggregateBuilder(DataSetComponentControllerAction.java:101)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.DataSetComponentControllerAction.batchInitialize(DataSetComponentControllerAction.java:75)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+INFO  [Thread-0] 2021-08-13 22:58:32,641 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+INFO  [Thread-0] 2021-08-13 22:58:32,644 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+INFO  [Thread-0] 2021-08-13 22:58:32,644 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.OneRunBatchRunner.batchInit(OneRunBatchRunner.java:89)
+INFO  [Thread-0] 2021-08-13 22:58:32,644 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.run(InstanceRunner.java:185)
+INFO  [Thread-0] 2021-08-13 22:58:32,644 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:217)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - ERROR [main] 22:58:32,644 repast.simphony.data2.engine.FileSinkComponentControllerAction - Error while creating FileDataSink. DataSet 'A Data Set' not found
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - java.lang.NullPointerException
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+INFO  [Thread-0] 2021-08-13 22:58:32,648 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+INFO  [Thread-0] 2021-08-13 22:58:32,649 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+INFO  [Thread-0] 2021-08-13 22:58:32,649 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.OneRunBatchRunner.batchInit(OneRunBatchRunner.java:89)
+INFO  [Thread-0] 2021-08-13 22:58:32,649 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.run(InstanceRunner.java:185)
+INFO  [Thread-0] 2021-08-13 22:58:32,649 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:217)
+INFO  [pool-3-thread-1] 2021-08-13 22:59:07,465 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,469 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0125
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,535 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409
+WARN  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,554 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**\\,}ModelOutput*.batch_param_map.txt in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409\instance_1
+WARN  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,554 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**\\,}ModelOutput*.txt in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409\instance_1
+WARN  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,556 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**\\,}ModelOutput*.batch_param_map.txt in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409\instance_2
+WARN  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,559 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**\\,}ModelOutput*.txt in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628891883409\instance_2
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,559 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,562 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0015
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 22:59:07,562 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0695
+WARN  [AWT-EventQueue-0] 2021-08-13 22:59:30,380 repast.simphony.data2.engine.DataSetComponentControllerAction - Error while creating DataSets
+java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.createAggregateBuilder(DataSetComponentControllerAction.java:101)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.batchInitialize(DataSetComponentControllerAction.java:75)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.RSApplication.start(RSApplication.java:189)
+	at repast.simphony.ui.action.StartRun.actionPerformed(StartRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 22:59:30,384 repast.simphony.chart2.engine.TimeSeriesComponentControllerAction - Error while creating Charts. Chart DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.chart2.engine.TimeSeriesComponentControllerAction.batchInitialize(TimeSeriesComponentControllerAction.java:71)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.RSApplication.start(RSApplication.java:189)
+	at repast.simphony.ui.action.StartRun.actionPerformed(StartRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 22:59:30,387 repast.simphony.data2.engine.FileSinkComponentControllerAction - Error while creating FileDataSink. DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.RSApplication.start(RSApplication.java:189)
+	at repast.simphony.ui.action.StartRun.actionPerformed(StartRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 22:59:32,504 repast.simphony.visualization.engine.DisplayComponentControllerAction - Error while creating displays
+repast.simphony.visualization.engine.DisplayCreationException: Error while creating display.
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:102)
+	at repast.simphony.visualization.engine.DisplayProducer.createDisplay(DisplayProducer.java:48)
+	at repast.simphony.visualization.engine.DisplayComponentControllerAction.runInitialize(DisplayComponentControllerAction.java:116)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:214)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:212)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:383)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:157)
+	at repast.simphony.ui.RSApplication.start(RSApplication.java:189)
+	at repast.simphony.ui.action.StartRun.actionPerformed(StartRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:87)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:34)
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:79)
+	... 49 more
+WARN  [AWT-EventQueue-0] 2021-08-13 23:00:28,162 repast.simphony.data2.engine.DataSetComponentControllerAction - Error while creating DataSets
+java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.createAggregateBuilder(DataSetComponentControllerAction.java:101)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.batchInitialize(DataSetComponentControllerAction.java:75)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:00:28,169 repast.simphony.chart2.engine.TimeSeriesComponentControllerAction - Error while creating Charts. Chart DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.chart2.engine.TimeSeriesComponentControllerAction.batchInitialize(TimeSeriesComponentControllerAction.java:71)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:00:28,174 repast.simphony.data2.engine.FileSinkComponentControllerAction - Error while creating FileDataSink. DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:00:31,429 repast.simphony.visualization.engine.DisplayComponentControllerAction - Error while creating displays
+repast.simphony.visualization.engine.DisplayCreationException: Error while creating display.
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:102)
+	at repast.simphony.visualization.engine.DisplayProducer.createDisplay(DisplayProducer.java:48)
+	at repast.simphony.visualization.engine.DisplayComponentControllerAction.runInitialize(DisplayComponentControllerAction.java:116)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:214)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:212)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:383)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:157)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:87)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:34)
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:79)
+	... 48 more
+WARN  [AWT-EventQueue-0] 2021-08-13 23:03:19,032 repast.simphony.data2.engine.DataSetComponentControllerAction - Error while creating DataSets
+java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.createAggregateBuilder(DataSetComponentControllerAction.java:101)
+	at repast.simphony.data2.engine.DataSetComponentControllerAction.batchInitialize(DataSetComponentControllerAction.java:75)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:03:19,038 repast.simphony.chart2.engine.TimeSeriesComponentControllerAction - Error while creating Charts. Chart DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.chart2.engine.TimeSeriesComponentControllerAction.batchInitialize(TimeSeriesComponentControllerAction.java:71)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:03:19,039 repast.simphony.data2.engine.FileSinkComponentControllerAction - Error while creating FileDataSink. DataSet 'A Data Set' not found
+java.lang.NullPointerException
+	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:155)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ERROR [AWT-EventQueue-0] 2021-08-13 23:03:21,257 repast.simphony.visualization.engine.DisplayComponentControllerAction - Error while creating displays
+repast.simphony.visualization.engine.DisplayCreationException: Error while creating display.
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:102)
+	at repast.simphony.visualization.engine.DisplayProducer.createDisplay(DisplayProducer.java:48)
+	at repast.simphony.visualization.engine.DisplayComponentControllerAction.runInitialize(DisplayComponentControllerAction.java:116)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:214)
+	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:212)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:383)
+	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:157)
+	at repast.simphony.ui.action.InitRun.actionPerformed(InitRun.java:17)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.ClassNotFoundException: disease_SimV2.Quarantined
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:87)
+	at repast.simphony.visualization.engine.StyleRegistrar.registerStyles(StyleRegistrar.java:34)
+	at repast.simphony.visualization.engine.DisplayCreatorOGL2D.createDisplay(DisplayCreatorOGL2D.java:79)
+	... 48 more
+INFO  [AWT-EventQueue-0] 2021-08-13 23:13:36,344 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 23:13:36,456 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:13:46,853 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost3407225033839485100.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628892823586 ...
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:13:46,896 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:13:46,896 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0552
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:13:46,898 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628892823586\asdmin_localhost3407225033839485100.zip
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:13:47,633 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-15] 2021-08-13 23:14:04,911 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-15] 2021-08-13 23:14:04,913 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628892823586/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-15] 2021-08-13 23:14:04,913 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-15] 2021-08-13 23:14:04,913 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-15] 2021-08-13 23:14:04,913 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-15] 2021-08-13 23:14:05,095 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-15] 2021-08-13 23:14:05,095 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628892823586/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-15] 2021-08-13 23:14:05,095 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-15] 2021-08-13 23:14:05,095 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-15] 2021-08-13 23:14:05,095 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-3-thread-1] 2021-08-13 23:14:47,640 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628892823586 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:14:47,640 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0124
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:14:47,660 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628892823586
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:14:47,675 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:14:47,686 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0008
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:14:47,686 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0685
+INFO  [AWT-EventQueue-0] 2021-08-13 23:16:49,314 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 23:16:49,320 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:17:00,568 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost16820653622910413381.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628893016581 ...
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:17:00,611 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:17:00,611 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0672
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:17:00,611 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628893016581\asdmin_localhost16820653622910413381.zip
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:17:01,410 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-16] 2021-08-13 23:17:23,933 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-16] 2021-08-13 23:17:23,933 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628893016581/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-16] 2021-08-13 23:17:23,933 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-16] 2021-08-13 23:17:23,933 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-16] 2021-08-13 23:17:23,933 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-16] 2021-08-13 23:17:24,057 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-16] 2021-08-13 23:17:24,057 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628893016581/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-16] 2021-08-13 23:17:24,059 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-16] 2021-08-13 23:17:24,059 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-16] 2021-08-13 23:17:24,059 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-4-thread-1] 2021-08-13 23:18:01,411 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628893016581 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:18:01,414 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0133
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:18:01,419 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628893016581
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:18:01,429 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:18:01,431 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0003
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:18:01,431 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0810
+INFO  [AWT-EventQueue-0] 2021-08-13 23:35:31,859 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 23:35:31,999 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:35:47,651 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost8114978666698229299.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894142304 ...
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:35:47,711 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:35:47,714 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0901
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:35:47,714 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894142304\asdmin_localhost8114978666698229299.zip
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:35:48,866 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-11] 2021-08-13 23:36:09,782 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-11] 2021-08-13 23:36:09,782 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628894142304/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-11] 2021-08-13 23:36:09,782 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-11] 2021-08-13 23:36:09,782 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-11] 2021-08-13 23:36:09,782 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-11] 2021-08-13 23:36:10,495 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-11] 2021-08-13 23:36:10,495 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628894142304/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-11] 2021-08-13 23:36:10,495 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-11] 2021-08-13 23:36:10,495 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-11] 2021-08-13 23:36:10,495 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-3-thread-1] 2021-08-13 23:36:48,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894142304 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:36:48,878 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0194
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:36:48,900 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894142304
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:36:48,918 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:36:48,923 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0007
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:36:48,925 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.1105
+INFO  [AWT-EventQueue-0] 2021-08-13 23:47:10,372 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 23:47:10,379 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:47:21,634 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost7687888751957663033.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894837804 ...
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:47:21,674 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:47:21,674 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0645
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:47:21,677 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894837804\asdmin_localhost7687888751957663033.zip
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:47:22,430 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-12] 2021-08-13 23:47:40,075 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-12] 2021-08-13 23:47:40,075 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628894837804/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-12] 2021-08-13 23:47:40,075 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-12] 2021-08-13 23:47:40,075 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-12] 2021-08-13 23:47:40,075 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-12] 2021-08-13 23:47:40,253 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-12] 2021-08-13 23:47:40,253 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628894837804/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-12] 2021-08-13 23:47:40,253 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-12] 2021-08-13 23:47:40,253 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-12] 2021-08-13 23:47:40,253 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-4-thread-1] 2021-08-13 23:48:22,433 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894837804 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:48:22,435 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0126
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:48:22,443 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628894837804
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:48:22,450 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:48:22,455 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0003
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-13 23:48:22,455 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0777
+INFO  [AWT-EventQueue-0] 2021-08-13 23:57:06,337 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-13 23:57:06,421 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:57:19,026 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost13015997944464076345.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895434466 ...
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:57:19,075 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:57:19,075 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0768
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:57:19,075 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895434466\asdmin_localhost13015997944464076345.zip
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:57:19,729 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-0] 2021-08-13 23:57:34,071 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2021-08-13 23:57:34,071 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895434466/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2021-08-13 23:57:34,071 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2021-08-13 23:57:34,071 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2021-08-13 23:57:34,079 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-0] 2021-08-13 23:57:34,245 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-0] 2021-08-13 23:57:34,245 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895434466/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-0] 2021-08-13 23:57:34,245 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-0] 2021-08-13 23:57:34,245 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-0] 2021-08-13 23:57:34,245 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-3-thread-1] 2021-08-13 23:58:19,750 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895434466 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:58:19,750 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0113
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:58:19,772 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895434466
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:58:19,772 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:58:19,788 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0006
+INFO  [SwingWorker-pool-2-thread-1] 2021-08-13 23:58:19,788 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0890
+INFO  [AWT-EventQueue-0] 2021-08-14 00:00:39,218 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-14 00:00:39,226 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:00:47,982 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost1225375051582020583.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895645061 ...
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:00:48,018 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:00:48,018 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0493
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:00:48,018 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895645061\asdmin_localhost1225375051582020583.zip
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:00:48,651 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-1] 2021-08-14 00:01:02,261 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-1] 2021-08-14 00:01:02,261 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895645061/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-1] 2021-08-14 00:01:02,261 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-1] 2021-08-14 00:01:02,261 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-1] 2021-08-14 00:01:02,261 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-1] 2021-08-14 00:01:02,277 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-1] 2021-08-14 00:01:02,277 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895645061/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-1] 2021-08-14 00:01:02,277 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-1] 2021-08-14 00:01:02,277 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-1] 2021-08-14 00:01:02,277 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-4-thread-1] 2021-08-14 00:01:48,653 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895645061 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:01:48,653 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0106
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:01:48,656 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895645061
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:01:48,664 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:01:48,664 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0001
+INFO  [SwingWorker-pool-2-thread-2] 2021-08-14 00:01:48,664 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0602
+INFO  [AWT-EventQueue-0] 2021-08-14 00:03:11,273 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-14 00:03:11,281 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:03:19,832 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost8090489711158703913.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895796832 ...
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:03:19,865 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:03:19,865 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0505
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:03:19,865 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895796832\asdmin_localhost8090489711158703913.zip
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:03:20,593 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895796832/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/asdmin/AppData/Local/Temp/simphony_model_1628895796832/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-2] 2021-08-14 00:03:35,600 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [pool-5-thread-1] 2021-08-14 00:04:20,596 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895796832 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:04:20,596 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0122
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:04:20,596 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628895796832
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:04:20,596 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/asdmin/eclipse-workspace/Disease SimV2/output
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:04:20,604 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0001
+INFO  [SwingWorker-pool-2-thread-3] 2021-08-14 00:04:20,604 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0629
+INFO  [AWT-EventQueue-0] 2021-08-14 00:13:18,698 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\asdmin\eclipse-workspace\Disease SimV2\output\config.props
+INFO  [AWT-EventQueue-0] 2021-08-14 00:13:18,698 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\asdmin\eclipse-workspace\Disease SimV2\batch\batch_params.xml to
+	C:\Users\asdmin\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-4] 2021-08-14 00:13:27,113 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\asdmin\AppData\Local\Temp\asdmin_localhost8564527287117453825.zip to 
+C:\Users\asdmin\AppData\Local\Temp\simphony_model_1628896404177 ...
+INFO  [SwingWorker-pool-2-thread-4] 2021-08-14 00:13:27,145 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-4] 2021-08-14 00:13:27,145 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0495

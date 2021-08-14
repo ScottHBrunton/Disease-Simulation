@@ -1,0 +1,4 @@
+"run","numSusceptible","chanceDeathvA","chanceDeathHospitalisedvA","mobility","chanceDeathHospitalisedvB","infectionChancevB","chanceDeathvB","infectionChancevA","numBeds","maskEfficacy","qSymptomatic","chanceRecoveringvA","numVaccinated","chanceRecoveringvB","chanceSymptomsvB","chanceSymptomsvA","maxDaysvA","maxDaysvB","numInfectedvA","numInfectedvB","chanceSevereSymptomsvA","masks","chanceSevereSymptomsvB","randomSeed"
+1,990,0.001,0.001,0.1,0.001,0.3,0.001,0.25,10,0.5,"false",0.01,0,0.01,0.1,0.1,21,21,10,0,0.01,"false",0.01,1093085741
+3,990,0.001,0.001,1.0,0.001,0.3,0.001,0.25,10,0.5,"false",0.01,0,0.01,0.1,0.1,21,21,10,0,0.01,"false",0.01,1093086728
+2,990,0.001,0.001,0.5,0.001,0.3,0.001,0.25,10,0.5,"false",0.01,0,0.01,0.1,0.1,21,21,10,0,0.01,"false",0.01,1093085548

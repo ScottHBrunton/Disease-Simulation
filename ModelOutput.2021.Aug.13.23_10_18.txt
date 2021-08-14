@@ -1,0 +1,1 @@
+"tick","Dead","Hospital","InfectedvA","InfectedvB","Susceptible","Vaccinatated","Recovered"
